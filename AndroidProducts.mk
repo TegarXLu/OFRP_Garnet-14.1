@@ -18,5 +18,4 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_garnet.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_garnet-user \
-    twrp_garnet-userdebug
+    twrp_garnet-eng
