@@ -24,7 +24,7 @@
 # components.
 
 # SDK
-BOARD_SYSTEMSDK_VERSIONS := 33
+BOARD_SYSTEMSDK_VERSIONS := 32
 
 # Architecture
 TARGET_ARCH := arm64
