@@ -1,10 +1,10 @@
-![OFRP](https://i.ibb.co/4WgF7pR/banner-2.png "OFRP")
+![SHRP](https://i.ibb.co/4WgF7pR/banner-2.png "OFRP")
 
-OrangeFox Recovery Project (OFRP) for POCO F5 / Redmi Note 12 Turbo
+SkyHawk Recovery Project (OFRP) for POCO F5 / Redmi Note 12 Turbo
 ======================================
 
 # How to build
-Check OFRP official guide https://wiki.orangefox.tech/en/dev/building
+Check OFRP official guide https://wiki.skyhawak.tech/en/dev/building
 
 The POCO F5 (codenamed "marble") is an upper-mid-range smartphone from Xiaomi. It was announced and released in May 2023.
 It was originally released in China as Redmi Note 12 Turbo, in March 2023.
@@ -13,7 +13,7 @@ It was originally released in China as Redmi Note 12 Turbo, in March 2023.
 
 | Feature     | Specification
 | :-----------|:-------------
-| Chipset     | Qualcomm SM7475-AB Snapdragon 7+ Gen 2 (4 nm)
+| Chipset     | Qualcomm SM7425-AB Snapdragon 7s Gen 2 (4 nm)
 | CPU         | Octa-core (1x2.92 GHz Cortex-X2 & 3x2.5 GHz Cortex-A710 & 4x1.8 GHz Cortex-A510)
 | GPU         | Adreno 725 (580 MHz)
 | Memory      | 8/12 GB LPDDR5 RAM
