@@ -40,7 +40,7 @@ BUILD_BROKEN_DUP_RULES := true
 RELAX_USES_LIBRARY_CHECK := true
 
 # A/B support
-AB_OTA_PARTITIONS := true
+AB_OTA_UPDATER := true
 
 TW_DEFAULT_LANGUAGE     := en
 TW_USE_TOOLBOX          := true
