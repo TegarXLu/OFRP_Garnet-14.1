@@ -205,7 +205,7 @@ jobs:
       continue-on-error: true
         
     - name: Upload to Release
-      uses: softprops/action-gh-release@v1
+      uses: softprops/action-gh-release@v2
       with:
         files: |
           workspace/out/target/product/${{ github.event.inputs.DEVICE_NAME }}/${{ env.RECOVERY_TYPE }}.tar
@@ -216,7 +216,7 @@ jobs:
         body: |
 
     - name: Release ramdisk-recovery
-      uses: softprops/action-gh-release@4634c16e79c963813287e889244c50009e7f0981
+      uses: softprops/action-gh-release@62c96d0c4e8a889135c1f3a25910db8dbe0e85f7
       with:
         files: |
           workspace/out/target/product/${{ github.event.inputs.DEVICE_NAME }}/obj/PACKAGING/vendor_ramdisk_fragments_intermediates/recovery.*
