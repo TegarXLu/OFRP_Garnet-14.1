@@ -59,9 +59,9 @@ BOARD_SHIPPING_API_LEVEL := 32
 SHIPPING_API_LEVEL := 32
 PRODUCT_TARGET_VNDK_VERSION := 32
 
-# OEM otacert
+# OEM otacerts
 PRODUCT_EXTRA_RECOVERY_KEYS += \
-    vendor/recovery/security/miui
+    $(DEVICE_PATH)/security/otacert
 
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
@@ -156,11 +156,6 @@ SOONG_CONFIG_NAMESPACES += ufsbsg
 
 SOONG_CONFIG_ufsbsg += ufsframework
 SOONG_CONFIG_ufsbsg_ufsframework := bsg
-
-# OEM otacerts
-PRODUCT_EXTRA_RECOVERY_KEYS += \
-    $(DEVICE_PATH)/security/otacert
-
 
 # System AVB
 BOARD_AVB_VBMETA_SYSTEM := system
